@@ -70,7 +70,7 @@ def build_qa_chain(vector_store: FAISS):
 
     # Groq LLM — llama-3.1-8b-instant: fast, free, capable
     llm = ChatGroq(
-        model="llama-3.1-8b-instant",
+        model="openai/gpt-oss-20b",
         temperature=0,           # deterministic answers
         groq_api_key=groq_api_key
     )

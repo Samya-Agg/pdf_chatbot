@@ -54,3 +54,9 @@ flagged/
 # Logs
 *.log
 logs/
+
+.env
+venv/
+__pycache__/
+*.pyc
+.DS_Store
